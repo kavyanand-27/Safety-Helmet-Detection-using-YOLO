@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['hat', 'person']
+
+roboflow:
+  workspace: kavi-hqudy
+  project: safety-helmet-wearing-dataset-zjlb0-hr4jc
+  version: 1
+  license: Public Domain
+  url: https://app.roboflow.com/kavi-hqudy/safety-helmet-wearing-dataset-zjlb0-hr4jc/1

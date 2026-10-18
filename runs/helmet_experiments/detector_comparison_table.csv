@@ -1,0 +1,15 @@
+Metric,YOLOv8n (Nano),YOLOv8s (Small)
+Model Architecture,YOLOv8n,YOLOv8s
+Parameters (M),3.01M,11.14M
+Model Weights Size (MB),5.96 MB,21.47 MB
+Training Time (min),34.90 min,40.77 min
+Overall Precision,0.9086,0.9129
+Overall Recall,0.7928,0.8173
+Overall mAP@0.5,0.8489,0.8621
+Overall mAP@0.5:0.95,0.5127,0.5322
+mAP@0.5 (hat / helmet),0.8044,0.8101
+mAP@0.5 (person / no helmet),0.8934,0.9142
+GPU Latency (ms),10.53 ms,20.15 ms
+GPU Inference FPS,95.0 FPS,49.6 FPS
+CPU Latency (ms),127.37 ms,330.00 ms
+CPU Inference FPS,7.9 FPS,3.0 FPS

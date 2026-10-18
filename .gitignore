@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets and Archives
+*.zip
+*.tar.gz
+train/
+valid/
+test/
+
+# Intermediate checkpoints (keep only best.pt)
+last.pt
+*/weights/last.pt
+
+# Temporary & backup files
+test_*.py
+*backup*
+*.log
+.system_generated/
